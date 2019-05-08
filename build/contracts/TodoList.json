@@ -1,0 +1,199 @@
+{
+  "contractName": "TodoList",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.0+commit.1d4f565a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Volumes/MACDATA/Learn/Ethereum/eth-todo-list/contracts/TodoList.sol\":\"TodoList\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Volumes/MACDATA/Learn/Ethereum/eth-todo-list/contracts/TodoList.sol\":{\"keccak256\":\"0x2cc945da031d75b14d054a0fd926ee1873d91e77ba5c9976b1eaf30509a4cf81\",\"urls\":[\"bzzr://91b72ac133d4c4b0b06dc93dc2e2349b7e49b6785a496714380d6a158f86b534\"]}},\"version\":1}",
+  "bytecode": "0x608060405260008055348015601357600080fd5b5060358060216000396000f3fe6080604052600080fdfea165627a7a72305820f9583a0fb01ae4d02a631b4818f7d66f6cc6a4ab4f1d3bc998b499abf661c76d0029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a72305820f9583a0fb01ae4d02a631b4818f7d66f6cc6a4ab4f1d3bc998b499abf661c76d0029",
+  "sourceMap": "25:43:1:-;;;64:1;47:18;;25:43;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:43:1;;;;;;;",
+  "deployedSourceMap": "25:43:1:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\n\ncontract TodoList {\n  uint taskCount = 0;\n}",
+  "sourcePath": "/Volumes/MACDATA/Learn/Ethereum/eth-todo-list/contracts/TodoList.sol",
+  "ast": {
+    "absolutePath": "/Volumes/MACDATA/Learn/Ethereum/eth-todo-list/contracts/TodoList.sol",
+    "exportedSymbols": {
+      "TodoList": [
+        62
+      ]
+    },
+    "id": 63,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 62,
+        "linearizedBaseContracts": [
+          62
+        ],
+        "name": "TodoList",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 61,
+            "name": "taskCount",
+            "nodeType": "VariableDeclaration",
+            "scope": 62,
+            "src": "47:18:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 59,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "47:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 60,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "64:1:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "internal"
+          }
+        ],
+        "scope": 63,
+        "src": "25:43:1"
+      }
+    ],
+    "src": "0:68:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/Volumes/MACDATA/Learn/Ethereum/eth-todo-list/contracts/TodoList.sol",
+    "exportedSymbols": {
+      "TodoList": [
+        62
+      ]
+    },
+    "id": 63,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 62,
+        "linearizedBaseContracts": [
+          62
+        ],
+        "name": "TodoList",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 61,
+            "name": "taskCount",
+            "nodeType": "VariableDeclaration",
+            "scope": 62,
+            "src": "47:18:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 59,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "47:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 60,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "64:1:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "internal"
+          }
+        ],
+        "scope": 63,
+        "src": "25:43:1"
+      }
+    ],
+    "src": "0:68:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x001CC3E1a71AE69983A2F31d72c1A36731c1cA56",
+      "transactionHash": "0x005b04657a81900a1c8262e9cf5fa5797d55b66bb6a3386a5681910925c28a36"
+    }
+  },
+  "schemaVersion": "3.0.9",
+  "updatedAt": "2019-05-08T04:40:30.898Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
